@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafecito</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/efa5ea2eda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+              <li><a href="index.html">INICIO</a></li>
+              <li><a href="#">CAFES</a></li>
+              <li><a href="#">CONTACTOS</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+<!--  Presentacion  -->
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Realizamos los mejores cafes</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!
+            </p>
+            <div>
+              <button class="btn-principal" type ="submit">Pedidos</button>
+              <button class="btn-secundario" type ="submit">Opciones</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+          <img src="img/caratula2.jpg" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+<!--  Servicios  -->
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+              <h2>Cada cafe es unico y los hacemos pensando en vos</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
+              </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                  <i class="fa-regular fa-coffee-pot"></i>
+                  <h3>Cafes</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                  </p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-coffee-beans"></i>
+                  <h3>Nuestros Granos</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                  </p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <h3>Hace tu pedido</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                  </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<!--  Footer  -->
+    <footer>
+        <p class="footer-content">
+          Cafecito &copy; Derechos reservados 2022
+        </p>
+    </footer>
+    <script>
+      const menu = document.getElementById('menu');
+      window.onscroll = function(){
+          if(window.pageYOffset>10){
+            menu.style.backgroundColor='#fff';
+          }
+          else{
+            menu.style.backgroundColor='initial';
+          }
+      }
+    </script>
+</body>
+</html>
